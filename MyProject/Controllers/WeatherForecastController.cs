@@ -4,7 +4,7 @@ using MyProject.Models;
 namespace MyProject.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("/")]
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
